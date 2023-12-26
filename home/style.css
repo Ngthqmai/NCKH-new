@@ -95,9 +95,35 @@ a {
   text-align: center;
   justify-content: center;
   margin: 0 5px;
-  
 }
 .header-link div:first-child,
 .header-link div:last-child {
   flex: 0.5;
 }
+.section1{
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+}
+.tintuccha{
+  text-align: center;
+}
+.tintuc {
+  flex: 70%;
+  justify-content: center;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+}
+.tintuc > div {
+  margin-right: 4px;
+  max-width: 350px;
+}
+.sukien{
+  flex: 25%;
+  text-align: center;
+  color: #023047;
+}
+.section1 a{
+  color: black;
+}
+
