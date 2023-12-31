@@ -129,8 +129,8 @@ a {
   max-width: none;
   white-space: pre-line;
 }
-.drt a{
-color: #023047;
+.drt a {
+  color: #023047;
 }
 
 .footer {
@@ -138,7 +138,9 @@ color: #023047;
   background-color: #023047;
   color: white;
   font-family: "Open Sans", sans-serif;
+ margin-top: 50px;
 }
+
 .fleft {
   flex: 30%;
 }
@@ -172,6 +174,10 @@ color: #023047;
   height: 40px;
   width: 100%;
   font-family: "Open Sans", sans-serif;
+  
+}
+.empty4 p {
+  margin: 0;
 }
 .empty40 {
   display: flex;
@@ -182,27 +188,29 @@ color: #023047;
 .empty42 {
   flex: 98%;
 }
-.dright{
+.dright {
   flex: 0 0 30%;
 }
-.drt{
+.drt,
+.drb {
   margin-left: 30px;
   margin-right: 5px;
   color: #023047;
   margin-bottom: 20px;
 }
-.drt a{
+.drt a {
   color: #337ab7;
 }
-.drt p{
+.drt p {
   padding: 5px 0;
 }
-.drt hr {
+.drt hr,.drb hr {
+  border: 0;
+  height: 0.5px;
+  background-color: #d3d3d3;
 
-  border: 0; 
-  height: 0.5px; 
- background-color:  #d3d3d3;;
-  
   margin: 10px 50px 10px 10px;
-
+}
+.drb{
+  margin-top: 50px;
 }
