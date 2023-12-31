@@ -225,4 +225,5 @@ ul li::before {
   content: "\2713";
   color: #000;
   margin-right: 5px;
+  margin-left: 0px;
 }
