@@ -293,3 +293,44 @@ a:hover {
 }
 
 
+.sukien {
+  flex: 25%;
+  text-align: center;
+  color: #023047;
+
+  border-left: 4px solid #e6e6e6;
+}
+.section1 a {
+  color: black;
+}
+.sukiencon {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  color: #023047;
+  max-height: 500px;
+  overflow-y: auto;
+  padding: 10px;
+}
+.sukiencon div {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  color: #023047;
+}
+.sukiencon a{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+.sukiencon img{
+  margin-right: 10px;
+}
+.sukiencon p{
+  margin: 0px;
+  text-align: left;
+}
+.sukiencon a{
+  color: #000;
+}
