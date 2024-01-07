@@ -135,7 +135,7 @@ body {
   
   .footer {
     display: flex;
-    background-color: #023047;
+    background-color: #333;
     color: white;
     font-family: "Open Sans", sans-serif;
    margin-top: 50px;
@@ -170,7 +170,7 @@ body {
     margin-left: 15px;
   }
   .empty4 {
-    background-color: #023047;
+    background-color: #333;
     height: 40px;
     width: 100%;
     font-family: "Open Sans", sans-serif;
@@ -215,3 +215,42 @@ body {
     margin-top: 50px;
   }
   
+.sukien {
+  flex: 25%;
+  text-align: center;
+  color: #023047;
+
+  
+}
+.section1 a {
+  color: black;
+}
+.sukiencon {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  color: #023047;
+  max-height: 400px;
+  overflow-y: auto;
+  padding: 10px;
+}
+.sukiencon div {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  color: #023047;
+}
+.sukiencon a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #023047;
+}
+.sukiencon img {
+  margin-right: 10px;
+}
+.sukiencon p {
+  margin: 0px;
+  text-align: left;
+}

@@ -135,7 +135,7 @@ body {
   
   .footer {
     display: flex;
-    background-color: #023047;
+    background-color: #333;
     color: white;
     font-family: "Open Sans", sans-serif;
    margin-top: 50px;
@@ -170,7 +170,7 @@ body {
     margin-left: 15px;
   }
   .empty4 {
-    background-color: #023047;
+    background-color: #333;
     height: 40px;
     width: 100%;
     font-family: "Open Sans", sans-serif;
