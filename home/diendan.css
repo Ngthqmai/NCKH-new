@@ -1,0 +1,270 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.top-menu {
+  background-color: #363636;
+  color: white;
+  font-size: 14px;
+  line-height: 15px;
+  display: flex;
+  width: 100%;
+  height: 41.6px;
+  font-family: "Open Sans", sans-serif;
+}
+.hleft {
+  display: flex;
+  flex: 60%;
+  align-items: center;
+  justify-content: center;
+}
+.hright {
+  display: flex;
+  flex: 40%;
+  align-items: center;
+}
+.search-icon {
+  margin-left: 15px;
+}
+
+.fa-search {
+  color: aliceblue;
+  font-size: 18px;
+}
+a {
+  color: aliceblue;
+  text-decoration: none;
+  margin: 0 15px;
+}
+.navigation {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.nleft {
+  flex: 35%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: end;
+}
+.text-content {
+  margin-right: 20px;
+}
+.nright {
+  flex: 65%;
+}
+.nright-t {
+  text-align: center;
+}
+.nright h1,
+.nright h2 {
+  margin: 0;
+  margin-bottom: 5px;
+  color: #023047;
+  font-family: "Open Sans", sans-serif;
+}
+.nright h2 {
+  margin-bottom: 15px;
+}
+.nright-u {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+.nright a,
+.header-link a {
+  color: black;
+}
+.header-link {
+  background: #e6e6e6;
+  height: 44.9px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+.header-link div {
+  flex: 1;
+  text-align: center;
+  justify-content: center;
+  margin: 0 5px;
+}
+.hinh1 {
+  margin-top: 20px;
+}
+.quytac {
+  margin-left: 50px;
+  font-family: "Open Sans", sans-serif;
+  margin-right: 70px;
+}
+p,
+a,
+strong,
+h3,
+h2,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
+}
+.quytac hr {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.empty1 {
+  display: flex;
+  height: 40px;
+
+  margin-top: 30px;
+  background-color: #99ccff;
+  align-items: center;
+  justify-content: center;
+}
+.tong {
+  font-family: "Open Sans", sans-serif;
+}
+.avt {
+  display: flex;
+  align-items: center;
+
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.avt img {
+  margin-right: 10px;
+}
+.baidang {
+  margin-left: 50px;
+  margin-right: 50px;
+  max-width: 680px;
+  align-content: center;
+}
+.baidang p {
+  text-align: justify;
+}
+.avt p {
+  margin: 0;
+}
+.allbaidang {
+  
+  justify-content: center;
+  align-items: center;
+}
+
+.like-button.clicked {
+  border-color: transparent;
+}
+
+#heart-icon {
+  font-size: 24px;
+  color: #eee; 
+}
+
+#heart-icon.clicked {
+  color: #ff0000; 
+}
+.like-button {
+  background-color: #ffc0cb; 
+  /* background-color: #cfe8d5;  */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-right: 10px; 
+  border-radius: 5px;
+}
+
+#heart-icon {
+  margin-right: 10px; 
+}
+
+span {
+  font-weight: bold;
+}
+.comment {
+  margin-left: 50px; 
+  margin-right: 10px; 
+  color: #333; 
+  justify-content: center;
+}
+.thaotacduoibaidang{
+  display: flex;
+  text-align: center;
+ 
+}
+
+.comment-section {
+  display: flex;
+  align-items: center;
+  background-color: #add8e6;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.comment-section i {
+  margin-right:100px; 
+  
+}
+
+.comment-section span {
+  font-weight: bold;
+  color: #333; 
+}
+.comment-section {
+  display: inline-flex; 
+  align-items: center; 
+  margin-left: 10px;
+}
+
+.icon-background {
+  background-color: #eee;
+  padding: 5px; 
+  border-radius: 50%; 
+  margin-right: 5px; 
+}
+
+.khung {
+  border: 1px solid #ccc; /* Màu và độ dày của đường viền */
+  padding: 10px; 
+  margin-top: 15px;
+  border-radius: 15px;/* Khoảng cách giữa nội dung và đường viền */
+}
+.allbaidang {
+  display: grid;
+  place-items: center;
+}
+.baidang2{
+  margin-top: 20px;
+}
+.baidang{
+  padding-top: 0px;
+}
+.phan2{
+  display: flex;
+}.bentrai1 {
+  width: 20%;
+  background-color: #eee;
+  float: left; /* Thêm thuộc tính float để căn chỉnh về bên trái */
+}
+
+.benphai1 {
+  width: 20%;
+  background-color: #eee;
+  float: right; /* Thêm thuộc tính float để căn chỉnh về bên phải */
+}
+
+.allbaidang {
+  width: 60%;
+  margin: 0 auto; 
+  float: left; /* Thêm thuộc tính float để căn chỉnh về bên trái */
+}
+
+
