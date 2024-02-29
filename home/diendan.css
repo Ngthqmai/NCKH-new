@@ -232,7 +232,7 @@ span {
 }
 
 .khung {
-  border: 1px solid #ccc; /* Màu và độ dày của đường viền */
+  border: 1px solid orange; /* Màu và độ dày của đường viền */
   padding: 10px; 
   margin-top: 15px;
   border-radius: 15px;/* Khoảng cách giữa nội dung và đường viền */
