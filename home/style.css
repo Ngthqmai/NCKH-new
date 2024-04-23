@@ -197,8 +197,7 @@ a {
   text-align: center;
   align-items: center;
   justify-content: center;
-  display: flex; 
-  
+  display: flex;
 }
 .row {
   display: flex;
