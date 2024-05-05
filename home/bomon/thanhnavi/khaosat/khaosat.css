@@ -78,7 +78,6 @@ h2 {
 hr {
   margin-left: 50px;
   margin-right: 0px;
-
 }
 .đanghđ {
   display: flex;
@@ -118,7 +117,6 @@ a {
   text-align: center;
   max-width: 440px;
   margin-top: 10px;
- 
 }
 .le {
   margin-left: 50px;
@@ -132,8 +130,9 @@ a {
   margin: 0;
   padding: 0;
 }
-.le a,h3{
-    color: green;
-    padding: 0;
-    margin: 0;
+.le a,
+h3 {
+  color: green;
+  padding: 0;
+  margin: 0;
 }
